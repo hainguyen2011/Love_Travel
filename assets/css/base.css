@@ -1,0 +1,66 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333
+}
+
+
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.label {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 4px;
+    color: var(--white-color);
+    border-radius: 2px;
+    float: right;
+}
+
+.label--red {
+    background-color: rgb(228, 60, 37);
+}
+
+.label--green {
+    background-color: rgb(26, 212, 166);
+}
+
+
+/* Animation */
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
